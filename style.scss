@@ -1,25 +1,40 @@
 header {
     display: flex;
     justify-content: space-between;
-    height: 63px;
+    align-items: center;
+
+    height: 64px;
+
     margin: auto;
+
     .img-logo{
         background-image: url("./img-header/IMAGE.svg");
         width: 104px;
         height: 40px;
     }
+
     nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        border-radius: 1px;
+
         p {
             display: flex;
             justify-content: space-around;
+            margin-left: 100px;
             
         }
+
         p:last-child {
+            display: flex;
+            align-items: center;
+
+            width: 200px;
+            height: 63px;
+
             background-color: #F1EAFB;
-            
-            
         }
+
     }
 }
