@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    margin: auto;
+    .img-logo{
+        background-image: url("./img-header/IMAGE.svg");
+        width: 104px;
+        height: 40px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        p {
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        p:last-child {
+            background-color: #F1EAFB;
+            
+            
+        }
+    }
+}
