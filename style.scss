@@ -1,58 +1,71 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    height: 64px;
-
+body {
+    /* width: 1440px; */
     margin: auto;
 
-    .img-logo{
-        background-image: url("./img-header/IMAGE.svg");
-        width: 104px;
-        height: 40px;
-    }
-
-    nav {
+    header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
 
-        p {
-            display: flex;
-            justify-content: space-around;
-            margin-left: 100px;
-            
+        height: 64px;
+
+        margin: auto;
+
+        .img-logo {
+            background-image: url("./img-header/IMAGE.svg");
+            width: 104px;
+            height: 40px;
         }
 
-        p:last-child {
-            display: flex;
-            align-items: center;
+        .header-lick-wrapper {
+            nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
 
-            width: 200px;
-            height: 63px;
 
-            background-color: #F1EAFB;
-        }
-    }
+                p {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-left: 100px;
 
-    main { /* or 100% */
-        display: flex;
-        justify-content: space-between;
+                }
 
-        .top-title{
-            display: flex;
-            flex-direction: column;
-            nav{
-                h1{
-                    font:400 70px 'Roboto';
-                    color: #000000;
-                    width: 424px;
-                    height: 210px;
+                p:last-child {
+                    display: flex;
+                    align-items: center;
+
+                    width: 200px;
+                    height: 63px;
+
+                    background-color: #F1EAFB;
                 }
             }
         }
 
+        main {
+            /* or 100% */
+            display: flex;
+            justify-content: space-between;
+
+            section {
+
+                .top-title {
+                    display: flex;
+                    flex-direction: column;
+
+                    nav {
+
+                        h1 {
+                            font: 400 70px 'Roboto';
+                            color: #000000;
+                            width: 424px;
+                            height: 210px;
+                        }
+                    }
+                }
+
+            }
+        }
     }
 }

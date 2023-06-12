@@ -1,4 +1,8 @@
-header {
+body {
+  /* width: 1440px; */
+  margin: auto;
+}
+body header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,12 +15,12 @@ header {
   height: 64px;
   margin: auto;
 }
-header .img-logo {
+body header .img-logo {
   background-image: url("./img-header/IMAGE.svg");
   width: 104px;
   height: 40px;
 }
-header nav {
+body header .header-lick-wrapper nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,7 +31,7 @@ header nav {
       -ms-flex-align: center;
           align-items: center;
 }
-header nav p {
+body header .header-lick-wrapper nav p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,7 +39,7 @@ header nav p {
       justify-content: space-around;
   margin-left: 100px;
 }
-header nav p:last-child {
+body header .header-lick-wrapper nav p:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +50,8 @@ header nav p:last-child {
   height: 63px;
   background-color: #F1EAFB;
 }
-header main { /* or 100% */
+body header main {
+  /* or 100% */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +59,7 @@ header main { /* or 100% */
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header main .top-title {
+body header main section .top-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,7 +68,7 @@ header main .top-title {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-header main .top-title nav h1 {
+body header main section .top-title nav h1 {
   font: 400 70px "Roboto";
   color: #000000;
   width: 424px;
