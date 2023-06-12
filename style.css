@@ -3,12 +3,12 @@ body {
   margin: auto;
 }
 body header {
+  /* position: fixed; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -87,4 +87,52 @@ body header main section .main-photo .main-photo-vector-one {
   background-size: contain;
   width: 62px;
   height: 96px;
+}
+body header main section .main-photo .main-photo-right-two {
+  width: 150px;
+  height: 216px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body header main section .main-photo .main-photo-vector-two {
+  width: 80px;
+  height: 71px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body header main section .main-photo .main-photo-right-three {
+  width: 180px;
+  height: 248px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body header main section .main-photo .main-photo-vector-four {
+  width: 95px;
+  height: 62px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body header main section .main-photo .main-photo-bottom-four {
+  width: 167px;
+  height: 214px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body header main section .main-photo .main-photo-vector-five {
+  width: 82px;
+  height: 97px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body header main section .main-photo .main-photo-left-five {
+  width: 216px;
+  height: 144px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body header main section .main-photo .main-photo-vector-six {
+  width: 42px;
+  height: 88px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }

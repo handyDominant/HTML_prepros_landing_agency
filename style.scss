@@ -3,8 +3,9 @@ body {
     margin: auto;
 
     header {
+        /* position: fixed; */
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
 
         height: 64px;
@@ -44,6 +45,7 @@ body {
         }
 
         main {
+            
             /* or 100% */
             display: flex;
             justify-content: space-between;
@@ -86,6 +88,62 @@ body {
 
                         width: 62px;
                         height: 96px;
+                    }
+                    .main-photo-right-two{
+                        width: 150px;
+                        height: 216px;
+
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .main-photo-vector-two{
+                        width: 80px;
+                        height: 71px;
+
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .main-photo-right-three{
+                        width: 180px;
+                        height: 248px;
+
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .main-photo-vector-four{
+                        width: 95px;
+                        height: 62px;
+
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .main-photo-bottom-four{
+                        width: 167px;
+                        height: 214px;
+
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .main-photo-vector-five{
+                        width: 82px;
+                        height: 97px;
+
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .main-photo-left-five{
+                        width: 216px;
+                        height: 144px;
+
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+                    .main-photo-vector-six{
+                        width: 42px;
+                        height: 88px;
+
+                        background-repeat: no-repeat;
+                        background-size: contain;
 
                     }
                 }
