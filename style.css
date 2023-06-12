@@ -74,3 +74,17 @@ body header main section .top-title nav h1 {
   width: 424px;
   height: 210px;
 }
+body header main section .main-photo .main-photo-top-one {
+  background-image: url("./img-main/IMAGE (2).svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 170px;
+  height: 260px;
+}
+body header main section .main-photo .main-photo-vector-one {
+  background-image: url("./img-main/Vector.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 62px;
+  height: 96px;
+}

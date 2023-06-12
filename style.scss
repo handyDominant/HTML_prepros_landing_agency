@@ -65,6 +65,31 @@ body {
                     }
                 }
 
+                .main-photo {
+                    .main-photo-top-one {
+                        background-image: url('./img-main/IMAGE\ \(2\).svg'
+                                /* format:'truetype' */
+                            );
+                        background-repeat: no-repeat;
+                        background-size: contain;
+
+                        width: 170px;
+                        height: 260px;
+                    }
+
+                    .main-photo-vector-one {
+                        background-image: url('./img-main/Vector.svg'
+                                /* format:'truetype' */
+                            );
+                        background-repeat: no-repeat;
+                        background-size: contain;
+
+                        width: 62px;
+                        height: 96px;
+
+                    }
+                }
+
             }
         }
     }
