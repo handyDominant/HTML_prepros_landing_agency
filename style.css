@@ -1,3 +1,4 @@
+@import url("./fonts/fonts.css");
 body {
   /* width: 1440px; */
   margin: auto;
@@ -82,11 +83,12 @@ body main section .main-first-part .top-title nav h1 {
           align-items: center;
   font: 400 70px "Roboto";
   color: #000000;
-  width: 424px;
+  width: 524px;
   height: 210px;
 }
 body main section .main-first-part .top-title nav p {
-  width: 412px;
+  margin-top: 31px;
+  width: 352px;
   height: 51px;
   font: 400 18px "Roboto";
   font-family: "Roboto";
@@ -130,9 +132,12 @@ body main section .main-first-part .btn-center .main-btn-demo {
   font: 400 16px "Roboto";
   color: #9F4A19;
 }
-body main section .main-first-part div {
+body main section .main-first-part .main-txt-before-btn {
+  margin-top: 15px;
   font: 400 14px "Roboto";
   color: #808080;
+  width: 144px;
+  height: 18px;
 }
 body main section .main-photo {
   margin: auto;
@@ -228,7 +233,7 @@ body main section .main-photo .main-photo-vector-six {
   background-size: contain;
 }
 body footer {
-  margin-top: 381px;
+  margin-top: 81px;
 }
 body footer section {
   margin: auto;

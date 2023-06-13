@@ -1,3 +1,5 @@
+@import url('./fonts/fonts.css');
+
 body {
     /* width: 1440px; */
     margin: auto;
@@ -47,7 +49,7 @@ body {
 
     main {
         margin-top: 133px;
-        
+
 
         /* or 100% */
         section {
@@ -69,14 +71,15 @@ body {
                             font: 400 70px 'Roboto';
                             color: #000000;
 
-                            width: 424px;
+                            width: 524px;
                             height: 210px;
                         }
 
                         p {
-                            width: 412px;
+                            margin-top: 31px;
+                            width: 352px;
                             height: 51px;
-                            
+
                             font: 400 18px 'Roboto';
                             font-family: 'Roboto';
 
@@ -121,11 +124,16 @@ body {
                     }
                 }
 
-                div {
-                    
+                .main-txt-before-btn {
+
+                    margin-top: 15px;
+
                     font: 400 14px 'Roboto';
 
                     color: #808080;
+
+                    width: 144px;
+                    height: 18px;
                 }
 
             }
@@ -134,10 +142,10 @@ body {
             .main-photo {
                 margin: auto;
                 margin-top: -30px;
-                
+
                 .main-photo-top-one {
                     position: absolute;
-                    
+
                     background-image: url('./img-main/IMAGE\ \(2\).svg'
                             /* format:'truetype' */
                         );
@@ -150,9 +158,9 @@ body {
 
                 .main-photo-vector-one {
                     margin: 30px 200px;
-                    
+
                     position: absolute;
-                    
+
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -166,7 +174,7 @@ body {
                 .main-photo-right-two {
                     margin: 50px 290px;
                     position: absolute;
-                    
+
                     background-image: url('./img-main/IMAGE\ \(3\).svg'
                             /* format:'truetype' */
                         );
@@ -180,7 +188,7 @@ body {
                 .main-photo-vector-two {
                     margin: 30px 310px;
                     position: absolute;
-                    
+
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -195,7 +203,7 @@ body {
                 .main-photo-right-three {
                     margin: 230px 250px;
                     position: absolute;
-                    
+
                     background-image: url('./img-main/IMAGE\ \(4\).svg'
                             /* format:'truetype' */
                         );
@@ -209,7 +217,7 @@ body {
                 .main-photo-vector-four {
                     margin: 450px 250px;
                     position: absolute;
-                    
+
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -223,7 +231,7 @@ body {
                 .main-photo-bottom-four {
                     margin: 330px 70px;
                     position: absolute;
-                    
+
                     background-image: url('./img-main/IMAGE\ \(5\).svg'
                             /* format:'truetype' */
                         );
@@ -237,7 +245,7 @@ body {
                 .main-photo-vector-five {
                     position: absolute;
                     margin: 400px 0px;
-                    
+
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -251,7 +259,7 @@ body {
                 .main-photo-left-five {
                     margin: 250px -90px;
                     position: absolute;
-                   
+
                     background-image: url('./img-main/IMAGE\ \(6\).svg'
                             /* format:'truetype' */
                         );
@@ -265,7 +273,7 @@ body {
                 .main-photo-vector-six {
                     margin: 250px -110px;
                     position: absolute;
-                    
+
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -280,14 +288,16 @@ body {
     }
 
     footer {
-        margin-top: 381px;
-        section{
+        margin-top: 81px;
+
+        section {
             margin: auto;
-            .footer-img-footer{
-                
+
+            .footer-img-footer {
+
                 background-image: url('./img-footer/IMAGE\ \(1\).svg'
-                            /* format:'truetype' */
-                        );
+                        /* format:'truetype' */
+                    );
                 width: 894px;
                 height: 733px;
             }
