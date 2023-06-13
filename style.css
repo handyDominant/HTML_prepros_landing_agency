@@ -59,7 +59,7 @@ body header main {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-body header main section .top-title {
+body header main section .top-title div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,11 +68,23 @@ body header main section .top-title {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-body header main section .top-title nav h1 {
+body header main section .top-title div nav h1 {
   font: 400 70px "Roboto";
   color: #000000;
   width: 424px;
   height: 210px;
+}
+body header main section .top-title div nav p {
+  font: 400 18px "Roboto";
+  font-family: "Roboto";
+  color: #000000;
+}
+body header main section .top-title .btn-center .main-btn-started {
+  background: #F1EAFB;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  width: 262px;
+  height: 42px;
 }
 body header main section .main-photo .main-photo-top-one {
   background-image: url("./img-main/IMAGE (2).svg");

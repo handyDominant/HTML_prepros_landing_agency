@@ -45,27 +45,51 @@ body {
         }
 
         main {
-            
+
             /* or 100% */
             display: flex;
             justify-content: space-between;
 
             section {
-
                 .top-title {
-                    display: flex;
-                    flex-direction: column;
 
-                    nav {
+                    div {
+                        display: flex;
+                        flex-direction: column;
 
-                        h1 {
-                            font: 400 70px 'Roboto';
-                            color: #000000;
-                            width: 424px;
-                            height: 210px;
+                        nav {
+                            h1 {
+                                font: 400 70px 'Roboto';
+                                color: #000000;
+                                width: 424px;
+                                height: 210px;
+                            }
+
+                            p {
+                                font: 400 18px 'Roboto';
+                                font-family: 'Roboto';
+
+                                color: #000000;
+                            }
                         }
                     }
+
+                    .btn-center {
+                        .main-btn-started {
+                            background: #F1EAFB;
+                            border: 1px solid #000000;
+                            border-radius: 0px;
+
+                            width: 262px;
+                            height: 42px;
+
+                        }
+
+                        .main-btn-demo {}
+                    }
+
                 }
+
 
                 .main-photo {
                     .main-photo-top-one {
@@ -89,56 +113,64 @@ body {
                         width: 62px;
                         height: 96px;
                     }
-                    .main-photo-right-two{
+
+                    .main-photo-right-two {
                         width: 150px;
                         height: 216px;
 
                         background-repeat: no-repeat;
                         background-size: contain;
                     }
-                    .main-photo-vector-two{
+
+                    .main-photo-vector-two {
                         width: 80px;
                         height: 71px;
 
                         background-repeat: no-repeat;
                         background-size: contain;
                     }
-                    .main-photo-right-three{
+
+                    .main-photo-right-three {
                         width: 180px;
                         height: 248px;
 
                         background-repeat: no-repeat;
                         background-size: contain;
                     }
-                    .main-photo-vector-four{
+
+                    .main-photo-vector-four {
                         width: 95px;
                         height: 62px;
 
                         background-repeat: no-repeat;
                         background-size: contain;
                     }
-                    .main-photo-bottom-four{
+
+                    .main-photo-bottom-four {
                         width: 167px;
                         height: 214px;
 
                         background-repeat: no-repeat;
                         background-size: contain;
                     }
-                    .main-photo-vector-five{
+
+                    .main-photo-vector-five {
                         width: 82px;
                         height: 97px;
 
                         background-repeat: no-repeat;
                         background-size: contain;
                     }
-                    .main-photo-left-five{
+
+                    .main-photo-left-five {
                         width: 216px;
                         height: 144px;
 
                         background-repeat: no-repeat;
                         background-size: contain;
                     }
-                    .main-photo-vector-six{
+
+                    .main-photo-vector-six {
                         width: 42px;
                         height: 88px;
 
