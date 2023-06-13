@@ -50,8 +50,11 @@ body header .header-lick-wrapper nav p:last-child {
   height: 63px;
   background-color: #F1EAFB;
 }
-body header main {
+body main {
+  margin-top: 133px;
   /* or 100% */
+}
+body main section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,7 +62,7 @@ body header main {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-body header main section .top-title div {
+body main section .main-first-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,83 +71,174 @@ body header main section .top-title div {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-body header main section .top-title div nav h1 {
+body main section .main-first-part .top-title nav h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font: 400 70px "Roboto";
   color: #000000;
   width: 424px;
   height: 210px;
 }
-body header main section .top-title div nav p {
+body main section .main-first-part .top-title nav p {
+  width: 412px;
+  height: 51px;
   font: 400 18px "Roboto";
   font-family: "Roboto";
   color: #000000;
 }
-body header main section .top-title .btn-center .main-btn-started {
+body main section .main-first-part .btn-center {
+  margin-top: 31px;
+}
+body main section .main-first-part .btn-center .main-btn-started {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #F1EAFB;
   border: 1px solid #000000;
-  border-radius: 0px;
   width: 262px;
   height: 42px;
+  font: 400 16px "Roboto";
+  color: #9F4A19;
 }
-body header main section .main-photo .main-photo-top-one {
+body main section .main-first-part .btn-center .main-btn-demo {
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  width: 262px;
+  height: 42px;
+  font: 400 16px "Roboto";
+  color: #9F4A19;
+}
+body main section .main-first-part div {
+  font: 400 14px "Roboto";
+  color: #808080;
+}
+body main section .main-photo .main-photo-top-one {
+  position: absolute;
+  z-index: 1;
   background-image: url("./img-main/IMAGE (2).svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 170px;
   height: 260px;
 }
-body header main section .main-photo .main-photo-vector-one {
+body main section .main-photo .main-photo-vector-one {
+  position: absolute;
+  z-index: 1;
   background-image: url("./img-main/Vector.svg");
   background-repeat: no-repeat;
   background-size: contain;
   width: 62px;
   height: 96px;
 }
-body header main section .main-photo .main-photo-right-two {
+body main section .main-photo .main-photo-right-two {
+  position: absolute;
+  z-index: 1;
+  background-image: url("./img-main/IMAGE (3).svg");
   width: 150px;
   height: 216px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-body header main section .main-photo .main-photo-vector-two {
+body main section .main-photo .main-photo-vector-two {
+  position: absolute;
+  z-index: 1;
+  background-image: url("./img-main/Vector.svg");
   width: 80px;
   height: 71px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-body header main section .main-photo .main-photo-right-three {
+body main section .main-photo .main-photo-right-three {
+  position: absolute;
+  z-index: 1;
+  background-image: url("./img-main/IMAGE (4).svg");
   width: 180px;
   height: 248px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-body header main section .main-photo .main-photo-vector-four {
+body main section .main-photo .main-photo-vector-four {
+  position: absolute;
+  z-index: 1;
+  background-image: url("./img-main/Vector.svg");
   width: 95px;
   height: 62px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-body header main section .main-photo .main-photo-bottom-four {
+body main section .main-photo .main-photo-bottom-four {
+  position: absolute;
+  z-index: 1;
+  background-image: url("./img-main/IMAGE (5).svg");
   width: 167px;
   height: 214px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-body header main section .main-photo .main-photo-vector-five {
+body main section .main-photo .main-photo-vector-five {
+  position: absolute;
+  z-index: 1;
+  background-image: url("./img-main/Vector.svg");
   width: 82px;
   height: 97px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-body header main section .main-photo .main-photo-left-five {
+body main section .main-photo .main-photo-left-five {
+  position: absolute;
+  z-index: 1;
+  background-image: url("./img-main/IMAGE (6).svg");
   width: 216px;
   height: 144px;
   background-repeat: no-repeat;
   background-size: contain;
 }
-body header main section .main-photo .main-photo-vector-six {
+body main section .main-photo .main-photo-vector-six {
+  position: absolute;
+  z-index: 1;
+  background-image: url("./img-main/Vector.svg");
   width: 42px;
   height: 88px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+body footer {
+  margin-top: 81px;
+}
+body footer section .footer-img-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("./img-footer/IMAGE (1).svg");
+  width: 894px;
+  height: 733px;
 }
