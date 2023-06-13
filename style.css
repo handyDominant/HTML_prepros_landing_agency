@@ -136,8 +136,8 @@ body main section .main-first-part div {
   color: #808080;
 }
 body main section .main-photo .main-photo-top-one {
+  margin-top: 97px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/IMAGE (2).svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -145,8 +145,8 @@ body main section .main-photo .main-photo-top-one {
   height: 260px;
 }
 body main section .main-photo .main-photo-vector-one {
+  margin-top: 133px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/Vector.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -154,8 +154,8 @@ body main section .main-photo .main-photo-vector-one {
   height: 96px;
 }
 body main section .main-photo .main-photo-right-two {
+  margin-top: 138px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/IMAGE (3).svg");
   width: 150px;
   height: 216px;
@@ -163,8 +163,8 @@ body main section .main-photo .main-photo-right-two {
   background-size: contain;
 }
 body main section .main-photo .main-photo-vector-two {
+  margin-top: 120px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/Vector.svg");
   width: 80px;
   height: 71px;
@@ -172,8 +172,8 @@ body main section .main-photo .main-photo-vector-two {
   background-size: contain;
 }
 body main section .main-photo .main-photo-right-three {
+  margin-top: 318px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/IMAGE (4).svg");
   width: 180px;
   height: 248px;
@@ -181,8 +181,8 @@ body main section .main-photo .main-photo-right-three {
   background-size: contain;
 }
 body main section .main-photo .main-photo-vector-four {
+  margin-top: 554px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/Vector.svg");
   width: 95px;
   height: 62px;
@@ -190,8 +190,8 @@ body main section .main-photo .main-photo-vector-four {
   background-size: contain;
 }
 body main section .main-photo .main-photo-bottom-four {
+  margin-top: 415px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/IMAGE (5).svg");
   width: 167px;
   height: 214px;
@@ -200,7 +200,6 @@ body main section .main-photo .main-photo-bottom-four {
 }
 body main section .main-photo .main-photo-vector-five {
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/Vector.svg");
   width: 82px;
   height: 97px;
@@ -208,8 +207,8 @@ body main section .main-photo .main-photo-vector-five {
   background-size: contain;
 }
 body main section .main-photo .main-photo-left-five {
+  margin-top: 333px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/IMAGE (6).svg");
   width: 216px;
   height: 144px;
@@ -217,8 +216,8 @@ body main section .main-photo .main-photo-left-five {
   background-size: contain;
 }
 body main section .main-photo .main-photo-vector-six {
+  margin-top: 293px;
   position: absolute;
-  z-index: 1;
   background-image: url("./img-main/Vector.svg");
   width: 42px;
   height: 88px;
@@ -228,16 +227,10 @@ body main section .main-photo .main-photo-vector-six {
 body footer {
   margin-top: 81px;
 }
+body footer section {
+  margin: auto;
+}
 body footer section .footer-img-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-image: url("./img-footer/IMAGE (1).svg");
   width: 894px;
   height: 733px;

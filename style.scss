@@ -133,8 +133,9 @@ body {
             .main-photo {
                 
                 .main-photo-top-one {
+                    margin-top: 97px;
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/IMAGE\ \(2\).svg'
                             /* format:'truetype' */
                         );
@@ -146,8 +147,9 @@ body {
                 }
 
                 .main-photo-vector-one {
+                    margin-top: 133px;
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -159,8 +161,9 @@ body {
                 }
 
                 .main-photo-right-two {
+                    margin-top: 138px;
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/IMAGE\ \(3\).svg'
                             /* format:'truetype' */
                         );
@@ -172,8 +175,9 @@ body {
                 }
 
                 .main-photo-vector-two {
+                    margin-top: 120px;
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -186,8 +190,9 @@ body {
                 }
 
                 .main-photo-right-three {
+                    margin-top: 318px;
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/IMAGE\ \(4\).svg'
                             /* format:'truetype' */
                         );
@@ -199,8 +204,9 @@ body {
                 }
 
                 .main-photo-vector-four {
+                    margin-top: 554px;
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -212,8 +218,9 @@ body {
                 }
 
                 .main-photo-bottom-four {
+                    margin-top: 415px;
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/IMAGE\ \(5\).svg'
                             /* format:'truetype' */
                         );
@@ -226,7 +233,7 @@ body {
 
                 .main-photo-vector-five {
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -238,8 +245,9 @@ body {
                 }
 
                 .main-photo-left-five {
+                    margin-top: 333px;
                     position: absolute;
-                    z-index: 1;
+                   
                     background-image: url('./img-main/IMAGE\ \(6\).svg'
                             /* format:'truetype' */
                         );
@@ -251,8 +259,9 @@ body {
                 }
 
                 .main-photo-vector-six {
+                    margin-top: 293px;
                     position: absolute;
-                    z-index: 1;
+                    
                     background-image: url('./img-main/Vector.svg'
                             /* format:'truetype' */
                         );
@@ -268,10 +277,9 @@ body {
     footer {
         margin-top: 81px;
         section{
+            margin: auto;
             .footer-img-footer{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                
                 background-image: url('./img-footer/IMAGE\ \(1\).svg'
                             /* format:'truetype' */
                         );
